@@ -56,4 +56,9 @@ func main() {
 	s := Dish{}                                        // Valores por defecto de las variables
 
 	fmt.Println(p, q, r, s)
+
+	var d *Dish = new(Dish)
+	fmt.Println(d)
+	d.name, d.price, d.quantity = "Sopa de caracoles", 23, 12
+	fmt.Println(d)
 }
