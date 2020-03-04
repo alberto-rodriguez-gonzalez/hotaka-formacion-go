@@ -1,1 +1,1 @@
-# hotaka-formacion-go
+# Formacion Introductoria a Go Lang
