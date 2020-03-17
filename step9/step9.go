@@ -2,7 +2,7 @@ package main
 
 import ( // <- Importacion de paquetes
 
-	"hotaka-formacion-go/step8/restaurante"
+	"hotaka-formacion-go/step9/restaurante"
 )
 
 func main() {

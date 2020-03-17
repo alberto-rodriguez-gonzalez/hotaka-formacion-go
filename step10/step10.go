@@ -1,8 +1,8 @@
 package main
 
 import ( // <- Importacion de paquetes
-
-	"hotaka-formacion-go/step8/restaurante"
+	"fmt"
+	"hotaka-formacion-go/step10/restaurante"
 )
 
 func createOrders(orderlist chan *restaurante.Order) {
@@ -23,6 +23,7 @@ func createOrders(orderlist chan *restaurante.Order) {
 }
 
 func main() {
+	defer fmt.Println("Fin de las ordenes")
 	restaurante.CreateProductList()
 	var orderlist chan *restaurante.Order
 
